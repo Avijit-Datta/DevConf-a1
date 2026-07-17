@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevConf 2026 — Code. Connect. Create.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- header-->
+  <header class="hdr">
+    <div class="logo">
+      <img src="./assets/footer-logo.png" alt="DevConf 2026 logo">
+    </div>
+
+    <nav class="hdr-links">
+      <a href="#speakers">Speakers</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#tracks">Tracks</a>
+      <a href="#venue">Venue</a>
+      <a href="#blog">Blog</a>
+    </nav>
+
+    <a href="#pricing">
+      <button type="button" class="btn btn-primary" onclick="location.href='#pricing'">Register Now</button>
+    </a>
+  </header>
+
+  <!-- hero banner -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1 class="hero-title">Code. <span>Connect</span>. Create</h1>
+      <p class="hero-txt">
+        Join 4,000+ engineers, founders, and builders at the premier developer
+        conference of 2026. Three days of cutting-edge talks, hands-on workshops,
+        and meaningful connections.
+      </p>
+      <a href="#pricing">
+        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='#pricing'">Register Now</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- speakers section -->
+  <section class="spkrs" id="speakers">
+    <h2 class="sctn-title">Meet the Speakers</h2>
+
+    <div class="spkr-grid">
+
+      <article class="spkr-card">
+        <img class="spkr-photo" src="./assets/andrej.png" alt="Portrait of Maya Osei">
+        <span class="bdg bdg-blue">AI / ML</span>
+        <h3 class="spkr-name">Maya Osei</h3>
+        <p class="spkr-role">ML Research Lead, Horizon Labs</p>
+      </article>
+
+      <article class="spkr-card">
+        <img class="spkr-photo" src="./assets/demis.png" alt="Portrait of Kenji Arata">
+        <span class="bdg bdg-purple">Cloud &amp; DevOps</span>
+        <h3 class="spkr-name">Kenji Arata</h3>
+        <p class="spkr-role">Principal SRE, NimbusStack</p>
+      </article>
+
+      <article class="spkr-card">
+        <img class="spkr-photo" src="./assets/gary.png" alt="Portrait of Priya Chandran">
+        <span class="bdg bdg-green">Frontend</span>
+        <h3 class="spkr-name">Priya Chandran</h3>
+        <p class="spkr-role">Design Engineer, Formless</p>
+      </article>
+
+      <article class="spkr-card">
+        <img class="spkr-photo" src="./assets/mustafa.png" alt="Portrait of Lucas Ferreira">
+        <span class="bdg bdg-red">Security</span>
+        <h3 class="spkr-name">Lucas Ferreira</h3>
+        <p class="spkr-role">Head of AppSec, Ironclad Systems</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- pricing section -->
+  <section class="prcng" id="pricing">
+    <h2 class="sctn-title">Secure Your Spot</h2>
+    <p class="sctn-subtitle">Early-bird pricing ends August 15, 2026.</p>
+
+    <div class="prcng-grid">
+
+      <div class="prcng-card">
+        <p class="prcng-label">Standard</p>
+        <p class="prcng-price">$399 <span>/ person</span></p>
+        <ul class="prcng-dtls">
+          <li>Access to all 3 conference days</li>
+          <li>48 curated technical talks</li>
+          <li>2 workshop sessions</li>
+          <li>Networking lunch &amp; coffee breaks</li>
+          <li>Digital recordings (30 days)</li>
+        </ul>
+        <button type="button" class="btn btn-outline">Get Standard</button>
+      </div>
+
+      <div class="prcng-card prcng-card-featured">
+        <p class="prcng-label">Pro</p>
+        <p class="prcng-price">$749 <span>/ person</span></p>
+        <ul class="prcng-dtls">
+          <li>Everything in Standard</li>
+          <li>Unlimited workshop access</li>
+          <li>Speaker meet &amp; greet</li>
+          <li>VIP networking dinner</li>
+          <li>Lifetime recording access</li>
+          <li>1-on-1 mentorship (30 min)</li>
+        </ul>
+        <button type="button" class="btn btn-primary">Get Pro</button>
+      </div>
+
+      <div class="prcng-card">
+        <p class="prcng-label">Team</p>
+        <p class="prcng-price">$5,999 <span>/ up to 10</span></p>
+        <ul class="prcng-dtls">
+          <li>Everything in Pro (10 seats)</li>
+          <li>Dedicated team lounge access</li>
+          <li>Company logo on event page</li>
+          <li>Recruitment booth (1 day)</li>
+          <li>Priority customer support</li>
+        </ul>
+        <button type="button" class="btn btn-outline">Contact Us</button>
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- footer -->
+  <footer class="ftr">
+    <div class="ftr-top">
+      <div class="logo">
+        <img src="./assets/footer-logo.png" alt="DevConf 2026 logo">
+      </div>
+
+      <div class="socials">
+        <a href="#" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.18a10.9 10.9 0 0 1 5.76 0c2.2-1.49 3.16-1.18 3.16-1.18.62 1.58.23 2.75.11 3.04.73.8 1.18 1.82 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+        </a>
+        <a href="#" aria-label="X (Twitter)">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.8L4.5 22H1.4l8.1-9.3L1 2h7l4.9 6.2L18.9 2Zm-1.2 18h1.7L7 3.9H5.2L17.7 20Z"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM.5 8.98h4.96V23.5H.5V8.98ZM8.7 8.98h4.76v1.98h.07c.66-1.25 2.28-2.57 4.7-2.57 5.02 0 5.95 3.31 5.95 7.6v7.51h-4.96v-6.66c0-1.59-.03-3.63-2.21-3.63-2.22 0-2.56 1.73-2.56 3.51v6.78H8.7V8.98Z"/></svg>
+        </a>
+        <a href="#" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M23.5 6.5s-.23-1.64-.94-2.36c-.9-.94-1.9-.95-2.36-1C17 3 12 3 12 3h-.01s-5 0-8.19.14c-.46.05-1.46.06-2.36 1C.73 4.86.5 6.5.5 6.5S.27 8.42.27 10.34v1.32c0 1.92.23 3.84.23 3.84s.23 1.64.94 2.36c.9.95 2.08.92 2.6 1.02C5.97 21 12 21 12 21s5.01-.01 8.2-.15c.46-.06 1.46-.06 2.36-1.02.71-.72.94-2.36.94-2.36s.23-1.92.23-3.84v-1.32c0-1.92-.23-3.84-.23-3.84ZM9.75 14.9V8.6l6.27 3.15-6.27 3.15Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <hr class="dvdr">
+
+    <p class="copyright">© 2026 DevConf. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
